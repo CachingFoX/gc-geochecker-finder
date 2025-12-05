@@ -2,21 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.2] - 2025-12-05
+## [1.1.0] - 2025-12-06
 
-### Added
+- Icon changed
+- geochecker.com image added
+- max-width for images defined
+
+## [1.0.2] - 2025-12-05
 
 - Changed to GNU General Public License v3.0
 
 ## [1.0.1] - 2025-12-05
 
-### Added
-
-- Icon
+- Icon added
 
 ## [1.0] - 2025-12-05
-
-### Added
 
 - Initial release
 - Automatic detection of geochecker links from multiple domains

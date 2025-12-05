@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GC Geochecker Finder
 // @namespace    https://github.com/ChristianGK-GC/gc-geochecker-finder
-// @version      1.0.2
+// @version      1.1.0
 // @description  Finds and displays geochecker links from various domains on geocaching.com cache pages
 // @copyright    2025, ChristianGK (https://github.com/ChristianGK-GC)
 // @author       ChristianGK
@@ -40,7 +40,7 @@
         },
         'geochecker.com': {
             extractParam: () => null,
-            getImageUrl: () => null
+            getImageUrl: () => `https://www.geochecker.com/images/geochecker_title.png`
         }
     };
 
@@ -137,7 +137,7 @@
                     if (imageUrl) {
                         widgetParts.push(
                             `<a href="${link}" target="_blank" style="display: block; margin: 5px auto; text-align: center;">`,
-                            `<img src="${imageUrl}" style="border: 0;">`,
+                            `<img src="${imageUrl}" style="max-width: 200px; border: 0;">`,
                             '</a>'
                         );
                     } else {

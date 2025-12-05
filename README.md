@@ -13,7 +13,7 @@ GC Geochecker Finder is a userscript that automatically detects and displays geo
 - **certitudes.org** - image link
 - **geocheck.org** & **geotjek.dk** - image link
 - **gc-apps.com** - image link
-- **geochecker.com** - Text link
+- **geochecker.com** - image link
 
 ## Installation
 
