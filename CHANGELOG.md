@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2025-12-05
+
+### Added
+
+- Changed to GNU General Public License v3.0
+
 ## [1.0.1] - 2025-12-05
 
 ### Added
