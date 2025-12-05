@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="128" height="128" viewBox="0 0 128 128" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd">
+  
+  <!-- Background -->
+  <rect width="128" height="128" fill="#f0f0f0"/>
+  
+  <!-- Top Left - Yellow -->
+  <rect x="8" y="8" width="52" height="52" rx="0" fill="#F5EC22" stroke="#8b8b88" stroke-width="1"/>
+  
+  <!-- Top Right - Green -->
+  <rect x="68" y="8" width="52" height="52" rx="0" fill="#00874D" stroke="#8b8b88" stroke-width="1"/>
+  
+  <!-- Bottom Left - Blue -->
+  <rect x="8" y="68" width="52" height="52" rx="0" fill="#277BA6" stroke="#8b8b88" stroke-width="1"/>
+  
+  <!-- Bottom Right - Red -->
+  <rect x="68" y="68" width="52" height="52" rx="0" fill="#E85307" stroke="#8b8b88" stroke-width="1"/>
+  
+  <!-- Checkmark -->
+  <path d="M 28 64 L 50 86 L 105 31" 
+        fill="none" 
+        stroke="#10ec08" 
+        stroke-width="14" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+
+  <!-- Shadow for checkmark -->
+  <path d="M 28 64 L 50 86 L 105 31" 
+        fill="none" 
+        stroke="#8b8b88" 
+        stroke-width="16" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        opacity="0.3"/>
+
+</svg>
