@@ -34,6 +34,10 @@
             extractParam: (url) => url.match(/gid=([a-f0-9\-]+)/i)?.[1],
             getImageUrl: (param) => param ? `http://geotjek.dk/geocheck_small.php?gid=${param}` : null
         },
+        'geocheck.xyz': {
+            extractParam: (url) => url.match(/gid=([a-f0-9\-]+)/i)?.[1],
+            getImageUrl: (param) => param ? `http://geotjek.dk/geocheck_small.php?gid=${param}` : null
+        },
         'gc-apps.com': {
             extractParam: (url) => url.match(/\/checker\/([a-f0-9]+)/i)?.[1],
             getImageUrl: (param) => param ? `https://www.gc-apps.com/checker/${param}/image` : null
