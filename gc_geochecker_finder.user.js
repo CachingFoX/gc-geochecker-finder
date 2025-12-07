@@ -45,6 +45,11 @@
         'geochecker.com': {
             extractParam: () => null,
             getImageUrl: () => `https://www.geochecker.com/images/geochecker_title.png`
+        },
+        'gccheck.com': {
+            extractParam: (url) => url.match(/([A-Z0-9]+)$/i)?.[1],
+            getImageUrl: () => null
+            //getImageUrl: (param) => param ? `https://gccheck.com/counterimg/${param}.png` : null // broken at provider
         }
     };
 

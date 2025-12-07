@@ -11,9 +11,10 @@ GC Geochecker Finder is a userscript that automatically detects and displays geo
 ## Supported Domains
 
 - **certitudes.org** - image link
-- **geocheck.org** & **geotjek.dk** - image link
+- **geocheck.org** & **geotjek.dk** & **geocheck.xyz** - image link
 - **gc-apps.com** - image link
 - **geochecker.com** - image link
+- **https://gccheck.com/** - 
 - **geocaching.com** - default checker
 
 ## Installation
@@ -47,6 +48,7 @@ Install a userscript manager in your browser:
 - [gc-apps.com](https://coord.info/GCBDJR4)
 - [geochecker.com](https://coord.info/GC2PM5J)
 - [geocaching.com & geocheck.org](https://coord.info/GC8HWZR)
+- [gccheck.com](https://coord.info/GC4CFAA)
 
 ## Contributing
 
