@@ -146,7 +146,7 @@
                     if (imageUrl) {
                         widgetParts.push(
                             `<a href="${link}" target="_blank" style="display: block; margin: 5px auto; text-align: center;">`,
-                            `<img src="${imageUrl}" style="max-width: 200px; border: 0;">`,
+                            `<img src="${imageUrl}" title="${link}" style="max-width: 200px; border: 0;">`,
                             '</a>'
                         );
                     } else {
